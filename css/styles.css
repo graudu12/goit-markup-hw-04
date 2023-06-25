@@ -75,6 +75,8 @@ img {
 /*main head*/
 .header-container {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .head-cont {
   display: flex;
@@ -156,6 +158,8 @@ img {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+}
+.hero {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(45, 47, 66, 0.7)),
     url(../images/hero_img/img1.jpg);
   background-repeat: no-repeat;
