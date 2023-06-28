@@ -158,15 +158,15 @@ img {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-}
-.hero {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(45, 47, 66, 0.7)),
     url(../images/hero_img/img1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  margin: 0 auto;
 }
+
 .section-top-text {
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -204,6 +204,15 @@ img {
 .future-list {
   display: flex;
   gap: 24px;
+}
+.future-list-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 .future-items {
   width: calc((100%-72px) / 4);
