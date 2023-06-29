@@ -325,11 +325,12 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.sec-mame {
+.sec-name {
   font-size: 36px;
   line-height: 1.11;
   color: var(--logo1);
   margin-bottom: 72px;
+  text-align: center;
 }
 .customers-items {
   display: flex;
@@ -355,8 +356,7 @@ img {
   color: var(--nav-list);
   border-color: var(--nav-list);
 }
-.customers-items-link;
-:focus {
+.customers-items-link:focus {
   color: var(--nav-list);
   border-color: var(--nav-list);
 }
