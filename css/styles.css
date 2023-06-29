@@ -458,8 +458,8 @@ img {
 .foot-items-link:focus {
   background-color: #31d0aa;
 }
-foot-icon {
-  fill: #f4f4fd;
+.foot-icon {
+  fill: var(--botton-link);
 }
 /*portfolio main section*/
 .portfolio-section {
