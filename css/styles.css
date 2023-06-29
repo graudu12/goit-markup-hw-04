@@ -102,6 +102,7 @@ img {
   color: var(--logo);
   margin-right: 76px;
   display: inline-block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-container {
   display: flex;
@@ -122,6 +123,15 @@ img {
   padding-bottom: 24px;
   /*new*/
   position: relative;
+}
+.nav-list::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 .logo {
   color: var(--logo1);
