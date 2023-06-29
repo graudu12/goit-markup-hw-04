@@ -508,6 +508,8 @@ foot-icon {
 }
 /*portfolio footer*/
 .footer-list {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: var(--logo1);
 }
 .footer-list .logo {
