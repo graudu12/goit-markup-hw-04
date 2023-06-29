@@ -68,6 +68,8 @@ img {
 .foot-container {
   display: flex;
   align-items: baseline;
+}
+.foot-contant {
   margin-right: 120px;
 }
 .link:hover {
