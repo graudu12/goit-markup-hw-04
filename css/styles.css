@@ -135,6 +135,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--port-paragraf);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*portfolio head*/
 .nav-logo-port {
@@ -146,6 +147,7 @@ img {
   text-transform: uppercase;
   color: var(--logo);
   margin-right: 76px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-list-links {
   font-weight: 500;
@@ -155,6 +157,18 @@ img {
   color: var(--logo1);
   padding-top: 24px;
   padding-bottom: 24px;
+  /*new*/
+  position: relative;
+  color: #404bbf;
+}
+.nav-list-links::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 .address-list {
   display: flex;
@@ -422,6 +436,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .foot-items-link:hover {
   background-color: #31d0aa;
