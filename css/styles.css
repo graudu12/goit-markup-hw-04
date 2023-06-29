@@ -172,6 +172,7 @@ img {
   /*new*/
   position: relative;
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-list-links::after {
   content: '';
@@ -544,7 +545,7 @@ foot-icon {
   color: var(--botton-link);
 }
 /*modal*/
-.modall {
+.modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -558,6 +559,8 @@ foot-icon {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visability 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-window {
   position: absolute;
